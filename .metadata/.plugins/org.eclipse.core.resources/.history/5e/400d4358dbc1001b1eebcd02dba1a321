@@ -1,0 +1,7 @@
+package com.user.micro.Usermodel;
+
+public class Account {
+	
+	String AccountType;
+	String branch;
+}

@@ -1,0 +1,16 @@
+server.port=8020
+spring.application.name=api-gateway
+eureka.client.serviceUrl.defaultZone=http://localhost:8010/eureka
+eureka.instance.instance-id=${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+
+##routing
+##discovery feature
+#spring.cloud.gateway.discovery.locator.enabled=true
+#spring.cloud.gateway.discovery.locator.lower-case-service-id=true
+
+spring.cloud.gateway.routes[0].id=user-status
+spring.cloud.gateway.routes[0].uri=lb://user-ms
+spring.cloud.gateway.routes[0].predicates[0]=Path=/user/status/check
+spring.cloud.gateway.routes[0].predicates[1]=Method=GET
+#spring.cloud.gateway.routes[0].filters[0]=RemoveRequestHeader=Cookie

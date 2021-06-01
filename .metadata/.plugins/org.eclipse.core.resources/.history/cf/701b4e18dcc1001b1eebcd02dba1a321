@@ -1,0 +1,28 @@
+package com.user.micro.Usermodel;
+
+public class Account {
+	
+	String userid;
+	public String getUserid() {
+		return userid;
+	}
+	public void setUserid(String userid) {
+		this.userid = userid;
+	}
+	String AccountType;
+	String branch;
+	
+	public String getAccountType() {
+		return AccountType;
+	}
+	public void setAccountType(String accountType) {
+		AccountType = accountType;
+	}
+	public String getBranch() {
+		return branch;
+	}
+	public void setBranch(String branch) {
+		this.branch = branch;
+	}
+	
+}

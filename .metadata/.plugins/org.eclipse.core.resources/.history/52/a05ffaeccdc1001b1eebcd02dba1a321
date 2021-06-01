@@ -1,0 +1,7 @@
+server.port=${PORT:0}
+spring.application.name=user-ms
+eureka.client.serviceUrl.defaultZone=http://localhost:8010/eureka
+spring.devtools.remote.restart.enabled=true
+eureka.instance.instance-id=${spring.application.name}:${spring.application.instance_id:${random.value}}
+spring.h2.console.enabled=true
+

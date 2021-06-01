@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+activeLaunchTarget=null\:---
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:AccountMng-MS - AccountMngMsApplication,org.eclipse.launchbar.core.descriptorType.default\:Discovery-MS - DiscoveryMsApplication,org.eclipse.launchbar.core.descriptorType.default\:SpringCloundAPIGateway - SpringCloundApiGatewayApplication,org.eclipse.launchbar.core.descriptorType.default\:User-MS - UserMsApplication
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:AccountMng-MS\ -\ AccountMngMsApplication/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:AccountMng-MS\ -\ AccountMngMsApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Descovery\ -\ DescoveryApplication/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Descovery\ -\ DescoveryApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Discovery-MS\ -\ DiscoveryMsApplication/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Discovery-MS\ -\ DiscoveryMsApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,0 +1,6 @@
+server.port=8083
+#spring.application.name=accountmng-ms
+#eureka.client.serviceUrl.defaultZone=http://localhost:8010/eureka
+#spring.devtools.remote.restart.enabled=true
+
+

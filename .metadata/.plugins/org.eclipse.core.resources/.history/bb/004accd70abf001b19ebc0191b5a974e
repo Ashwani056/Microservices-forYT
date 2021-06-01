@@ -1,0 +1,5 @@
+server.port=8020
+spring.application.name=user-ms
+ureka.client.serviceUrl.defaultZone=http://localhost:8010/eureka
+spring.devtools.remote.restart.enabled=true
+
